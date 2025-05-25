@@ -1,13 +1,13 @@
 #include <WiFiS3.h>
 #include <ThingSpeak.h>
 
-char ssid[] = "CYTA1BBF";       
-char pass[] = "ZTETG8FGB303788"; 
+char ssid[] = "wifi_ssid";       
+char pass[] = "wifi_password"; 
 
 WiFiClient client;
 
-unsigned long channelID = 2972186;  
-const char* writeAPIKey = "1XSBZMKSNN1KLXDH";
+unsigned long channelID = [channel ID];  
+const char* writeAPIKey = "write API Key";
 
 #define rainAnalog A0  // Αναλογική είδοσος του αισθητήρα βροχής
 #define rainDigital 2  // Ψηφιακή είσοδος του αισθητήρα βροχής
